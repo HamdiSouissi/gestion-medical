@@ -25,7 +25,7 @@
           </button>
         </li>
         <!-- #END# Full Screen Button -->
-        <li class="nav-item" ngbDropdown>
+        <!-- <li class="nav-item" ngbDropdown>
           <a ngbDropdownToggle class="lang-dropdown">
             <img *ngIf="flagvalue !== undefined" src="{{flagvalue}}" height="16">
             <img *ngIf="flagvalue === undefined" src="{{defaultFlag}}" height="16">
@@ -37,9 +37,9 @@
               <img src="{{item.flag}}" class="flag-img" height="12"> <span class="align-middle">{{item.text}}</span>
             </a>
           </div>
-        </li>
+        </li> -->
         <!-- #START# Notifications-->
-        <li class="nav-item" ngbDropdown>
+        <!-- <li class="nav-item" ngbDropdown>
           <button mat-icon-button ngbDropdownToggle class="nav-notification-icons">
             <mat-icon>notifications_none</mat-icon>
             <span class="label-count bg-orange"></span>
@@ -66,7 +66,7 @@
             <a class="text-center d-block border-top py-1">Read
               All Notifications</a>
           </div>
-        </li>
+        </li> -->
         <!-- #END# Notifications-->
         <li class="nav-item user_profile" ngbDropdown>
           <a href="#" onClick="return false;" ngbDropdownToggle role="button" class="nav-notification-icons pt-0">
@@ -83,16 +83,6 @@
                       </a>
                     </li>
                     <li>
-                      <a href="#" onClick="return false;">
-                        <mat-icon aria-hidden="false" class="msr-2">feedback</mat-icon>Feedback
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" onClick="return false;">
-                        <mat-icon aria-hidden="false" class="msr-2">help</mat-icon>Help
-                      </a>
-                    </li>
-                    <li>
                       <a href="javascript:void(0);" (click)="logout()">
                         <mat-icon aria-hidden="false" class="msr-2">power_settings_new</mat-icon>Logout
                       </a>
@@ -104,11 +94,11 @@
           </div>
         </li>
         <!-- #END# Tasks -->
-        <li class="float-end">
+        <!-- <li class="float-end">
           <button mat-icon-button (click)="toggleRightSidebar()" class="nav-notification-icons js-right-sidebar">
             <mat-icon id="settingBtn">settings</mat-icon>
           </button>
-        </li>
+        </li> -->
       </ul>
     </div>
   </div>
